@@ -218,7 +218,7 @@ button.submit:hover{
 footer {
     color: white;
     font-weight: 300;
-    display: flex;
+   
     justify-content: space-evenly;
     padding: 2rem;
     background-color: #303841;
@@ -236,7 +236,7 @@ footer i {
 
 @media (max-width: 500px) {
     footer {
-        flex-direction: column;
+       
         text-align: center;
     }
 }
