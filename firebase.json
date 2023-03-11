@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "M.A-Roadlines",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
