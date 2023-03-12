@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "M.A-Roadlines",
+    "public": "hosting",
     "ignore": [
       "firebase.json",
       "**/.*",
