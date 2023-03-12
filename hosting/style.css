@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri' , 'Trebuchet MS', sans-serif;
+    
+}
+nav{
+    background-image: linear-gradient(62deg, #3771aa 0%, #591d96 100%);
+    
+    word-spacing: .2rem;
+}
+button{
+    padding: 10px 30px 10px 30px;
+    color: white;
+    background-color: #158a1bda;
+    border: none;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: blue;
+    
+}
+.clients{
+    margin-top: 20px;
+}
+.next{
+    background-image: linear-gradient(62deg, #1b4269 0%, #471e70 100%);
+}
+.next:hover{
+    background-color: rgb(247, 247, 247);
+    color: black;
+}
+.h6{
+    font-size: 1rem;
+}
+.card{
+    cursor: pointer;
+    font-size: small;
+    border: 2px solid #000;
+}
+.card>a>img{
+    border-bottom: .5px solid #000;
+}
+.card-body{
+    align-items: center;
+    text-align: center;
+}
+/* .card-img-top{
+    border: 2px solid #000;
+} */
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  .flex-item>a{
+    color: #000;
+  }
+  .flex-item-left {
+    border: 2px solid #000;
+    padding: 10px;
+    flex: 50%;
+    margin: 10px 5px 10px 5px;
+    background-color: #303841; 
+  }
+  .flex-item-left img{
+    border: 2px solid #000;
+  }
+  .card-title{
+    background-color: #303841; 
+    color: white;
+  }
+  .card-body{
+    background-color: #303841; 
+  }
+  .flex-item-right {
+    border: 2px solid #000;
+    padding: 10px;
+    flex: 50%;
+     margin: 10px 5px 10px 5px;
+    background-color: #303841;    
+}
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+      margin-top: 10px;
+    }
+  }
+/* contact */
+
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: #303841;
+    padding: 0 2rem;
+   color: white;
+   
+}
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.contact-section-header>h2 {
+    font-size: 3rem;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.contact-details{
+    color: white;
+}
+.contact-details:hover {
+    transform: translateY(8px);
+    color:royalblue;
+}
+#name,#email{
+    align-items: center;
+    width: 25vw;
+    height:5vh;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+#message{
+    width: 25vw;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding:20px;
+}
+.submit {
+    background-color: #2885a1;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #2885a1 100%);
+   width: 100%;
+    
+   border: 2px solid #000;
+}
+button.submit:hover{
+    color: #ffffff;
+    background-image: linear-gradient(62deg, #077036 0%, #018a01 100%);
+}
+
+@media (max-width: 500px) {
+    .contact-section-header>h2 {
+        font-size: 4rem;
+    }
+    #name,#email{
+        align-items: center;
+        width: 70vw;
+        height: 4vh;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        padding: 20px;
+    }
+    #message{
+        width: 70vw;
+        padding: 10px;
+    }
+
+}
+
+.contact-section-header>p {
+    font-style: italic;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.contact-details {
+    font-size: 1.5rem;
+    
+    transition: transform 0.3s ease-out;
+    margin: 50px 0px 0px 40px;
+}
+
+.contact-details:hover {
+    transform: translateY(8px);
+    color: blue;
+}
+@media (max-width:600px){
+    
+.contact-details {
+    font-size: 1.5rem;
+    
+    transition: transform 0.3s ease-out;
+    margin: 35px 0px 0px 15px;
+}
+
+    
+}
+
+
+/*--------------------------------Footer---------------------------------*/
+
+footer {
+    color: white;
+    font-weight: 300;
+    
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-color: #303841;
+    border-top: 4px solid #a3d4f5;
+}
+
+footer>p {
+    margin: 2rem;
+    font-size: larger;
+}
+
+footer i {
+    vertical-align: middle;
+}
+
+@media (max-width: 500px) {
+    footer {
+        
+        text-align: center;
+    }
+}
